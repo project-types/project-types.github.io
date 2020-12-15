@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/style.css?v=c7edce425484b664f4ea85319866bdbc820fa1c5">
+  <link rel="icon"
+      type="image/png"
+      href="/assets/images/project-type-badges.png"
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+  <title>Project Type Badges</title>
+  <meta name="generator" content="Jekyll v3.9.0" />
+  <meta property="og:title" content="project-types.github.io" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="description" content="Source code for the “project type” badges site" />
+  <meta property="og:description" content="Source code for the “project type” badges site" />
+  <link rel="canonical" href="http://localhost:4000/" />
+  <meta property="og:url" content="http://localhost:4000/" />
+  <meta property="og:site_name" content="project-types.github.io" />
+  <script type="application/ld+json">
+{"url":"http://localhost:4000/","headline":"project-types.github.io","name":"project-types.github.io","description":"Source code for the “project type” badges site","@type":"WebSite","@context":"https://schema.org"}</script>
+  <!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <a id="a-title" href="/">
+        <h1>project-types.github.io</h1>
+      </a>
+      <h2>README badges that indicate your current/desired project type!</h2>
+
+      <section id="downloads">
+
+        <a href="https://github.com/project-types/project-types.github.io" class="btn btn-github"><span
+            class="icon"></span>View on GitHub</a>
+      </section>
+    </div>
+  </header>
+
+  <div class="container">
+    <section id="main_content">
+      <p>
+        <a href="https://project-types.github.io" style="text-decoration: none;">
+          <img src="https://img.shields.io/badge/project%20type-toy-blue" alt="Toy Badge" />
+        </a>
+        <a href="https://project-types.github.io" style="text-decoration: none;">
+          <img src="https://img.shields.io/badge/project%20type-club-ff69b4" alt="Club Badge" />
+        </a>
+        <a href="https://project-types.github.io" style="text-decoration: none;">
+          <img src="https://img.shields.io/badge/project%20type-stadium-orange" alt="Stadium Badge" />
+        </a>
+        <a href="https://project-types.github.io" style="text-decoration: none;">
+          <img src="https://img.shields.io/badge/project%20type-federation-brightgreen" alt="Federation Badge" />
+        </a>
+      </p>
+
+      <h1 id="toc">Table of Contents</h1>
+        <ul>
+          <li>
+            <a href="#about" style="text-decoration: none;">What's This About?</a>
+          </li>
+          <li>
+            <a href="#using-badges" style="text-decoration: none;">Using the Badges</a>
+          </li>
+        </ul>
+      <h1 id="about">What's This About?</h1>
+
+      <p>
+        Nadia Eghbal's acclaimed book, <i><a
+            href="https://www.amazon.com/Working-Public-Making-Maintenance-Software/dp/0578675862" style="text-decoration: none;">Working in
+            Public</a></i>, introduces a novel way of classifying different types of open source
+        projects. By examining the rate of user growth and contributor growth for any given project, Nadia arrives at four different
+        classifications: <a href="#toy" style="text-decoration: none;">toys</a>, <a href="#club" style="text-decoration: none;">clubs</a>, <a href="#stadium" style="text-decoration: none;">stadiums</a>, and <a href="#federation" style="text-decoration: none;">federations</a>.
+      </p>
+
+      <p>
+        The graphic below from <i>Working in Public</i> (used with permission from Nadia) provides a quick overview of the differences between these classifications, but more specific information about each classification is further below.
+      </p>
+
+      <img src="/assets/images/project-types.png" alt="Graphic comparing toys, clubs, stadiums, and federations">
+
+      <h2 id="toy">Toys</h2>
+
+      <p>
+        Like the name suggests, toys are small projects with low (or no) contributor growth and low (or no) user growth. This includes the one-off projects you put on GitHub and never expect anyone else to use (like <a href="https://github.com/zaataylor/js-fractal-fun" style="text-decoration: none;">this</a> code from a JS fractal tutorial). Esoteric programming languages like <a href="https://www.dangermouse.net/esoteric/piet.html" style="text-decoration: none;">Piet</a> likely also fit in this category.
+      </p>
+
+      <h2 id="club">Clubs</h2>
+      <p>
+        As the name suggests, clubs are cozy collaborations of passionate participants. Nadia characterizes them as projects with low user growth and high contributor growth. Generally, clubs cater to more niche interests, such as those of a specific scientific community (e.g. the astronomers and astrophysicists using <a href="https://www.astropy.org/" style="text-decoration: none;">astropy</a>).
+      </p>
+      
+      <p>Club-style projects are described as follows in the book:</p>
+      <blockquote>
+        Clubs are similar to meetup or hobby groups: they attract a narrow group of users, who then also become contributors because they have higher context for the project’s activity and feel a sense of affinity to the group. Clubs may not have a wide reach, but they’re loved and built by a group of enthusiasts.
+      </blockquote>
+      <h2 id="stadium">Stadiums</h2>
+      <p>
+        Stadiums are projects defined by high user growth and low contributor growth. In the same way that lots of people at a concert focus on one or a few performers on the main stage, the fast-growing userbase of a stadium-style project depends on one or a few maintainers.
+      </p>
+
+      <p>
+        Due to their low contributor growth, the social structure of these projects tends to be more centralized (<i>one-to-many</i>), so the primary bottleneck to getting work done (merging PRs, responding to issues, etc.) is maintainer attention.
+      </p>
+
+      <p>
+        <a href="https://babeljs.io/" style="text-decoration: none;">Babel</a> and <a href="https://getbootstrap.com/" style="text-decoration: none;">Bootstrap</a> are two examples of stadium-style projects.
+      </p>
+
+      <h2 id="federation">Federations</h2>
+      <p>
+        Federations are projects defined by high user and contributor growth, and are relatively rare. Nadia describes these as what we "typically think of when we imagine an open source project". Examples of federations include the <a href="https://www.rust-lang.org/" style="text-decoration: none;">Rust</a> programming language and the Linux project.
+      </p>
+
+      <p>
+        The large amount of contributor and user growth means that projects of this type generally take on a decentralized (<i>many-to-many</i>) social and organization structure. As described in the book:
+      </p>
+      <blockquote>
+        <i>[Federations are]</i> more complex to manage from a governance standpoint, so they tend to develop processes -- voting, leadership positions, foundations, working groups, and technical councils -- that address coordination issues within their contributor community. These contributors, in turn, make decisions for a broader constituency of passive users.
+      </blockquote>
+
+    <h1 id="using-badges">Using the Badges</h1>
+
+    <p>
+      Based on the descriptions above, you can add a badge that feels appropriate for the current <i>or</i> desired style of your project using the code snippets below. With your project's <code>README.md</code> open for editing, add any of the following near the top of the file:
+    </p>
+
+    <h2 id="toy-badge">Toy</h2>
+    <pre><code>&lt;a href="https://project-types.github.io"&gt;
+  &lt;img src="https://img.shields.io/badge/project%20type-toy-blue" alt="Toy Badge"/&gt;
+&lt;/a&gt;</code></pre>
+    <p>
+      This will render a badge that looks like this: <a href="https://project-types.github.io">
+        <img src="https://img.shields.io/badge/project%20type-toy-blue" alt="Toy Badge" />
+      </a>
+    </p>
+
+    <h2 id="club-badge">Club</h2>
+    <pre><code>&lt;a href="https://project-types.github.io"&gt;
+  &lt;img src="https://img.shields.io/badge/project%20type-club-ff69b4" alt="Club Badge"/&gt;
+&lt;/a&gt;</code></pre>
+    <p>
+      This will render a badge that looks like this: <a href="https://project-types.github.io">
+        <img src="https://img.shields.io/badge/project%20type-club-ff69b4" alt="Club Badge" />
+      </a>
+    </p>
+
+    <h2 id="stadium-badge">Stadium</h2>
+    <pre><code>&lt;a href="https://project-types.github.io"&gt;
+  &lt;img src="https://img.shields.io/badge/project%20type-stadium-orange" alt="Stadium Badge"/&gt;
+&lt;/a&gt;</code></pre>
+    <p>
+      This will render a badge that looks like this: <a href="https://project-types.github.io">
+        <img src="https://img.shields.io/badge/project%20type-stadium-orange" alt="Stadium Badge" />
+      </a>
+    </p>
+
+    <h2 id="federation-badge">Federation</h2>
+    <pre><code>&lt;a href="https://project-types.github.io"&gt;
+  &lt;img src="https://img.shields.io/badge/project%20type-federation-brightgreen" alt="Federation Badge"/&gt;
+&lt;/a&gt;</code></pre>
+    <p>
+      This will render a badge that looks like this: <a href="https://project-types.github.io">
+        <img src="https://img.shields.io/badge/project%20type-federation-brightgreen" 
+        alt="Federation Badge" />
+      </a>
+    </p>
+
+    </section>
+  </div>
+
+
+</body>
+
+</html>
